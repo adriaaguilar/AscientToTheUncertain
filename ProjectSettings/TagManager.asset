@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - tejado_casa
+  - virtualCamera
+  - zonas_enemigo
+  - TransicionCirculo
+  - confinerUno
+  - Enemigo
+  - UI_Inventory
+  - CorazonDorado
+  - Corazones
+  - sonido_interior
+  - sonido_exterior
+  - sonido_jefe
+  - ataque_jugador
+  - puerta_interior
+  - puerta_exterior0
+  - puerta_exterior1
+  - puerta_exterior2
+  - puerta_exterior3
+  - puerta_exterior4
+  - confinerInterior0
+  - confinerInterior1
+  - confinerInterior2
+  - confinerInterior3
+  - confinerInterior4
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - fondo
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

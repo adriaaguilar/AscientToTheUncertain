@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: de770827fdade0b4a88382a75bd87bd3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8577544538471855020
+    second: Caballero-Muerto_0
+  - first:
+      213: 2945428892244450270
+    second: Caballero-Muerto_1
+  - first:
+      213: -8686713094839081132
+    second: Caballero-Muerto_2
+  - first:
+      213: -5262774365095341454
+    second: Caballero-Muerto_3
+  - first:
+      213: -310554044281419305
+    second: Caballero-Muerto_4
+  - first:
+      213: 7180830282017067030
+    second: Caballero-Muerto_5
+  - first:
+      213: -872266975861354922
+    second: Caballero-Muerto_6
+  - first:
+      213: -3994456940706693434
+    second: Caballero-Muerto_7
+  - first:
+      213: 3251602281128377338
+    second: Caballero-Muerto_8
+  - first:
+      213: -6526900718960889917
+    second: Caballero-Muerto_9
+  - first:
+      213: 7560127495868397763
+    second: Caballero-Muerto_10
+  - first:
+      213: -946367743029392398
+    second: Caballero-Muerto_11
+  - first:
+      213: 1029592969274518904
+    second: Caballero-Muerto_12
+  - first:
+      213: 3688585188654469291
+    second: Caballero-Muerto_13
+  - first:
+      213: 307431221482699779
+    second: Caballero-Muerto_14
+  - first:
+      213: -8028434046419930745
+    second: Caballero-Muerto_15
+  - first:
+      213: 3119788600878354226
+    second: Caballero-Muerto_16
+  - first:
+      213: -2055423593124147127
+    second: Caballero-Muerto_17
+  - first:
+      213: -9052373008309447345
+    second: Caballero-Muerto_18
+  - first:
+      213: 4989042428112286337
+    second: Caballero-Muerto_19
+  - first:
+      213: -8628358353129637943
+    second: Caballero-Muerto_20
+  - first:
+      213: 8050560340690688611
+    second: Caballero-Muerto_21
+  - first:
+      213: -7799381481703988018
+    second: Caballero-Muerto_22
+  - first:
+      213: -8553552876013167983
+    second: Caballero-Muerto_23
+  - first:
+      213: 5299686491537507377
+    second: Caballero-Muerto_24
+  - first:
+      213: 88044820142759111
+    second: Caballero-Muerto_25
+  - first:
+      213: 7161302644053114730
+    second: Caballero-Muerto_26
+  - first:
+      213: 3954029322078613486
+    second: Caballero-Muerto_27
+  - first:
+      213: 5451379925954835526
+    second: Caballero-Muerto_28
+  - first:
+      213: 1869790480693507587
+    second: Caballero-Muerto_29
+  - first:
+      213: -6254520323164993396
+    second: Caballero-Muerto_30
+  - first:
+      213: -8056264705462747300
+    second: Caballero-Muerto_31
+  - first:
+      213: 1159828502715753560
+    second: Caballero-Muerto_32
+  - first:
+      213: -2821783170434420694
+    second: Caballero-Muerto_33
+  - first:
+      213: -5087697590732904949
+    second: Caballero-Muerto_34
+  - first:
+      213: -422549984457379789
+    second: Caballero-Muerto_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Caballero-Muerto_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1492
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3f4bcdf4f890770800000000000000
+      internalID: 8577544538471855020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1495
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb1761d8f340e820800000000000000
+      internalID: 2945428892244450270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1494
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457e164e678927780800000000000000
+      internalID: -8686713094839081132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1494
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272d57b299ed6f6b0800000000000000
+      internalID: -5262774365095341454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1332
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d98b0bfdb0b0bbf0800000000000000
+      internalID: -310554044281419305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1335
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610def7881f67a360800000000000000
+      internalID: 7180830282017067030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_6
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1334
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65eca729ec515e3f0800000000000000
+      internalID: -872266975861354922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1334
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce75927396d098c0800000000000000
+      internalID: -3994456940706693434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1172
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbb1850c03002d20800000000000000
+      internalID: 3251602281128377338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_9
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1175
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf281a806acb65a0800000000000000
+      internalID: -6526900718960889917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1174
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c836e7f6e7fae860800000000000000
+      internalID: 7560127495868397763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1174
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb48d14d83ddd2f0800000000000000
+      internalID: -946367743029392398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1012
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87de8dcb959d94e00800000000000000
+      internalID: 1029592969274518904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_13
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1015
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba05485afac703330800000000000000
+      internalID: 3688585188654469291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_14
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1014
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c375d2117344400800000000000000
+      internalID: 307431221482699779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_15
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1014
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781fc7075c5459090800000000000000
+      internalID: -8028434046419930745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 852
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fcaa10437bb4b20800000000000000
+      internalID: 3119788600878354226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_17
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 855
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940d0e4d12ba973e0800000000000000
+      internalID: -2055423593124147127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_18
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 854
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f459161e5b28f5280800000000000000
+      internalID: -9052373008309447345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 854
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1823cf0c7a3ac3540800000000000000
+      internalID: 4989042428112286337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 692
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7fee6fac9e14880800000000000000
+      internalID: -8628358353129637943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_21
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 695
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a57b5e9f559bf60800000000000000
+      internalID: 8050560340690688611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_22
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 694
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec426438dd703c390800000000000000
+      internalID: -7799381481703988018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 694
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ad6b95afcab4980800000000000000
+      internalID: -8553552876013167983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_24
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 532
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134870df8c44c8940800000000000000
+      internalID: 5299686491537507377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 535
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc1ce42c4cc83100800000000000000
+      internalID: 88044820142759111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_26
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 534
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ff9d300de026360800000000000000
+      internalID: 7161302644053114730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_27
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 534
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef69f518b88fd630800000000000000
+      internalID: 3954029322078613486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_28
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 372
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644bb36f82137ab40800000000000000
+      internalID: 5451379925954835526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_29
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 375
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306b42e1984d2f910800000000000000
+      internalID: 1869790480693507587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_30
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 374
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c880a4967ea7339a0800000000000000
+      internalID: -6254520323164993396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 374
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f306e2fe5623090800000000000000
+      internalID: -8056264705462747300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_32
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 212
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854eeb0d0e9881010800000000000000
+      internalID: 1159828502715753560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_33
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 215
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20b41d282307d8d0800000000000000
+      internalID: -2821783170434420694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_34
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 214
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0621cb3ffdd469b0800000000000000
+      internalID: -5087697590732904949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-Muerto_35
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 214
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6703959, y: 0.4158424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3303294270dc22af0800000000000000
+      internalID: -422549984457379789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

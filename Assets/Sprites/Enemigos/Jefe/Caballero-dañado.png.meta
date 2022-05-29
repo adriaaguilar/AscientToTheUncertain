@@ -1,0 +1,588 @@
+fileFormatVersion: 2
+guid: 374301ce46348e948873f13e15492d22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8258030124367435974
+    second: "Caballero-da\xF1ado_0"
+  - first:
+      213: 2399369771310453507
+    second: "Caballero-da\xF1ado_1"
+  - first:
+      213: 3187663119940346865
+    second: "Caballero-da\xF1ado_2"
+  - first:
+      213: 2246141392107886010
+    second: "Caballero-da\xF1ado_3"
+  - first:
+      213: -1282451210220526745
+    second: "Caballero-da\xF1ado_4"
+  - first:
+      213: -6806365284744617153
+    second: "Caballero-da\xF1ado_5"
+  - first:
+      213: -6005424197189979406
+    second: "Caballero-da\xF1ado_6"
+  - first:
+      213: 375368395726676884
+    second: "Caballero-da\xF1ado_7"
+  - first:
+      213: 7778952157739011136
+    second: "Caballero-da\xF1ado_8"
+  - first:
+      213: 4137700424927803927
+    second: "Caballero-da\xF1ado_9"
+  - first:
+      213: 1030853502895082883
+    second: "Caballero-da\xF1ado_10"
+  - first:
+      213: -6876414054845745447
+    second: "Caballero-da\xF1ado_11"
+  - first:
+      213: 7101525308202582056
+    second: "Caballero-da\xF1ado_12"
+  - first:
+      213: 5914398486358153092
+    second: "Caballero-da\xF1ado_13"
+  - first:
+      213: -6287519467628558127
+    second: "Caballero-da\xF1ado_14"
+  - first:
+      213: -4731397704979660513
+    second: "Caballero-da\xF1ado_15"
+  - first:
+      213: 1749319147773579812
+    second: "Caballero-da\xF1ado_16"
+  - first:
+      213: -7413330533542039844
+    second: "Caballero-da\xF1ado_17"
+  - first:
+      213: -1612318325030412796
+    second: "Caballero-da\xF1ado_18"
+  - first:
+      213: 5512615502615334090
+    second: "Caballero-da\xF1ado_19"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_0"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 692
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4250626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8556b25aa6a9270800000000000000
+      internalID: 8258030124367435974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_1"
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 695
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4250626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30315c738164c4120800000000000000
+      internalID: 2399369771310453507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_2"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 694
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4486054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f368a7f7badc3c20800000000000000
+      internalID: 3187663119940346865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_3"
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 694
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4486054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab554ef02b5eb2f10800000000000000
+      internalID: 2246141392107886010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_4"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 532
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4250626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76329054b61d33ee0800000000000000
+      internalID: -1282451210220526745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_5"
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 535
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4250626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f332f3fc5deea81a0800000000000000
+      internalID: -6806365284744617153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_6"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 534
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4486054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2b4f0c28278aca0800000000000000
+      internalID: -6005424197189979406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_7"
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 534
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4486054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493623f2193953500800000000000000
+      internalID: 375368395726676884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_8"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 372
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4250626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ccac6d5c364fb60800000000000000
+      internalID: 7778952157739011136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_9"
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 375
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4250626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71afdce2d901c6930800000000000000
+      internalID: 4137700424927803927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_10"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 374
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4486054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d47879cc35e4e00800000000000000
+      internalID: 1030853502895082883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_11"
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 374
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4486054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d67a6499d11290a0800000000000000
+      internalID: -6876414054845745447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_12"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 212
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4250626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8208cde64afad8260800000000000000
+      internalID: 7101525308202582056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_13"
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 215
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4250626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4875c77661a241250800000000000000
+      internalID: 5914398486358153092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_14"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 214
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4486054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d885ad5b5e3eb8a0800000000000000
+      internalID: -6287519467628558127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_15"
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 214
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4486054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11c697fad2b65eb0800000000000000
+      internalID: -4731397704979660513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_16"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 52
+        width: 23
+        height: 62
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4250626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42255d12f74d64810800000000000000
+      internalID: 1749319147773579812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_17"
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 55
+        width: 23
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4250626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde6ba1482f8e1990800000000000000
+      internalID: -7413330533542039844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_18"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 54
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4486054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e95bb9605ef99e0800000000000000
+      internalID: -1612318325030412796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Caballero-da\xF1ado_19"
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 54
+        width: 19
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6548969, y: 0.4486054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accc2b0b79eb08c40800000000000000
+      internalID: 5512615502615334090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

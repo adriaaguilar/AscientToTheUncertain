@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: 055600e45a989704c9da113dca798ef2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -452483085563074185
+    second: Caballero-camina_0
+  - first:
+      213: -846848232031650611
+    second: Caballero-camina_1
+  - first:
+      213: 932090407912687091
+    second: Caballero-camina_2
+  - first:
+      213: -4642609853957894361
+    second: Caballero-camina_3
+  - first:
+      213: 740061206447917496
+    second: Caballero-camina_4
+  - first:
+      213: -8309192611856075071
+    second: Caballero-camina_5
+  - first:
+      213: -2746695621799348145
+    second: Caballero-camina_6
+  - first:
+      213: 2522175719971540675
+    second: Caballero-camina_7
+  - first:
+      213: 1844596269377476508
+    second: Caballero-camina_8
+  - first:
+      213: 944307230919654311
+    second: Caballero-camina_9
+  - first:
+      213: 5473137312058796483
+    second: Caballero-camina_10
+  - first:
+      213: -2353023244702086835
+    second: Caballero-camina_11
+  - first:
+      213: -347082823473580022
+    second: Caballero-camina_12
+  - first:
+      213: 4942984036329599419
+    second: Caballero-camina_13
+  - first:
+      213: 2283729752611519743
+    second: Caballero-camina_14
+  - first:
+      213: 898857282019228322
+    second: Caballero-camina_15
+  - first:
+      213: 4922361845149982923
+    second: Caballero-camina_16
+  - first:
+      213: 5464528009039563448
+    second: Caballero-camina_17
+  - first:
+      213: -2699163631442329806
+    second: Caballero-camina_18
+  - first:
+      213: -1859550966679098131
+    second: Caballero-camina_19
+  - first:
+      213: -5800479894614598603
+    second: Caballero-camina_20
+  - first:
+      213: -4068318360760528157
+    second: Caballero-camina_21
+  - first:
+      213: -6727762409010468291
+    second: Caballero-camina_22
+  - first:
+      213: 1229604887424045245
+    second: Caballero-camina_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Caballero-camina_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.7332841, y: 0.4938652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779e322f70578b9f0800000000000000
+      internalID: -452483085563074185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 800
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5269846, y: 0.5067455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccf51f05046f34f0800000000000000
+      internalID: -846848232031650611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 800
+        width: 64
+        height: 160
+      alignment: 9
+      pivot: {x: 0.4389005, y: 0.5000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f54f2e99437fec00800000000000000
+      internalID: 932090407912687091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 800
+        width: 81
+        height: 160
+      alignment: 9
+      pivot: {x: 0.3229877, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f8c187fe2229fb0800000000000000
+      internalID: -4642609853957894361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.7332841, y: 0.4938652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9006a0fb9354a00800000000000000
+      internalID: 740061206447917496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 640
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5269846, y: 0.5067455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6b400f751dfac80800000000000000
+      internalID: -8309192611856075071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 64
+        height: 160
+      alignment: 9
+      pivot: {x: 0.4389005, y: 0.5000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48778472e6c1e9d0800000000000000
+      internalID: -2746695621799348145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 640
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.3229877, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cec40a4471900320800000000000000
+      internalID: 2522175719971540675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.7332841, y: 0.4938652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97514ea882599910800000000000000
+      internalID: 1844596269377476508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5269846, y: 0.5067455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab7cc16c6ada1d00800000000000000
+      internalID: 944307230919654311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 64
+        height: 160
+      alignment: 9
+      pivot: {x: 0.4389005, y: 0.5000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9633c236d74fb40800000000000000
+      internalID: 5473137312058796483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.3229877, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d498b4763d1685fd0800000000000000
+      internalID: -2353023244702086835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.7332841, y: 0.4938652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08b73fc20aee2bf0800000000000000
+      internalID: -347082823473580022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5269846, y: 0.5067455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb13adfbac1099440800000000000000
+      internalID: 4942984036329599419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 64
+        height: 160
+      alignment: 9
+      pivot: {x: 0.4389005, y: 0.5000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc766b3c1071bf10800000000000000
+      internalID: 2283729752611519743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.3229877, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa77868fe1697c00800000000000000
+      internalID: 898857282019228322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.7332841, y: 0.4938652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0e914b40ebf4440800000000000000
+      internalID: 4922361845149982923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5269846, y: 0.5067455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bac9fb9547e5db40800000000000000
+      internalID: 5464528009039563448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 64
+        height: 160
+      alignment: 9
+      pivot: {x: 0.4389005, y: 0.5000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ff93d5af4aa8ad0800000000000000
+      internalID: -2699163631442329806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.3229877, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decab558f3c8136e0800000000000000
+      internalID: -1859550966679098131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.7332841, y: 0.4938652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c93b2a44e808fa0800000000000000
+      internalID: -5800479894614598603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5269846, y: 0.5067455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e25ba9710e6a87c0800000000000000
+      internalID: -4068318360760528157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 64
+        height: 160
+      alignment: 9
+      pivot: {x: 0.4389005, y: 0.5000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a64b5fbbf22a2a0800000000000000
+      internalID: -6727762409010468291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caballero-camina_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.3229877, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db09ef0612f601110800000000000000
+      internalID: 1229604887424045245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

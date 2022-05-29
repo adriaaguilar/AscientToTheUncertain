@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/inicio_wallpaper.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    height: 73.5vh;
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#title{
+    margin: auto;
+}
+
+#logo{
+    grid-area: logo;
+}
+
+#logo>img{
+    width: 50px;
+}
+
+
+#menu{
+    grid-area: menu;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+#header{
+    display: grid;
+    background-color:rgba(255, 255, 255, 0.2);
+    grid-template-rows: auto;
+    grid-template-columns: 3% 7%;
+    grid-template-areas:
+    "logo menu";
+    padding: 10px;
+    border-bottom-left-radius: 25px;
+}
+
+#footer{
+    height: 8.1vh;
+    background-color:rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 25px;
+}
+
+h1{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+table {
+    text-align: left;
+    margin: auto;
+}
+
+ul{
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links {
+    background-color: rgb(62, 83, 192);
+    color: white;
+    border: 2px black solid;
+    padding: 10px;
+    border-radius: 10px;
+    height: 20px;
+    margin: 5px;
+}
+
+.button{
+    background-color: rgb(62, 83, 192);
+    color: white;
+    border: 2px black solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}

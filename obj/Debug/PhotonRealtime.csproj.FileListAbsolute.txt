@@ -1,0 +1,2 @@
+C:\xampp\htdocs\Insti_Local\M12\Proejecte Final\Prueba amb PHP Y BBDD\Prueba\obj\Debug\PhotonRealtime.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Insti_Local\M12\Proejecte Final\Prueba amb PHP Y BBDD\Prueba\obj\Debug\PhotonRealtime.csproj.CoreCompileInputs.cache
