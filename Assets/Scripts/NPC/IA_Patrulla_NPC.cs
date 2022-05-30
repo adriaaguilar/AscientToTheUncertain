@@ -14,12 +14,22 @@ public class IA_Patrulla_NPC : MonoBehaviour
     public float inicioTiempoEspera;
     public Transform[] zonas;
 
+    public int vida;
     private int zonaAleatoria;
 
+    public int dañoEnemigo;
+    public float velocidadAtaque = 1f;
+    private float puedeAtacar = 1f;
+
+    private bool Muerto = false;
 
     public GameObject[] listaItems;
 
+    private bool activarJefe = true;
+
     // private Rigidbody2D rb2D;
+
+
 
     private void Awake()
     {
@@ -33,6 +43,8 @@ public class IA_Patrulla_NPC : MonoBehaviour
         tiempoEspera = inicioTiempoEspera;
         zonaAleatoria = Random.Range(0, zonas.Length);
         miAnimacion = GetComponent<Animator>();
+        miAnimacion.enabled = false;
+        // rb2D = GetComponent<Rigidbody2D>();
 
     }
 
@@ -46,12 +58,84 @@ public class IA_Patrulla_NPC : MonoBehaviour
             Patrulla();
 
         }
+        else if (Muerto)
+        {
+
+            Muerto = false;
+            Invoke("dropItem", 1.5f);
+
+        }
+        else if (vida <= 0)
+        {
+
+            HaMuerto();
+
+        }
+        else if (Vector2.Distance(GameObject.FindWithTag("Player").transform.position, transform.position) <= maxDistancia && Vector2.Distance(GameObject.FindWithTag("Player").transform.position, transform.position) >= minDistancia)
+        {
+            miAnimacion.SetBool("seActiva", true);
+            SeguirJugador();
+
+        }
         else if (Vector2.Distance(GameObject.FindWithTag("Player").transform.position, transform.position) >= maxDistancia)
         {
+            miAnimacion.SetBool("seActiva", true);
 
             Patrulla();
 
         }
+        else if (Vector2.Distance(GameObject.FindWithTag("Player").transform.position, colliderEnemigo.transform.position) < minDistancia)
+        {
+            miAnimacion.SetBool("seActiva", true);
+            atacarJugador();
+
+        }
+    }
+
+    public void dropItem()
+    {
+        var totalItemsArray = 0;
+
+        foreach (GameObject item in listaItems)
+        {
+            totalItemsArray++;
+        }
+        var itemIndex = Random.Range(0, totalItemsArray);
+        Instantiate(listaItems[itemIndex], transform.position, Quaternion.identity);
+
+
+    }
+
+    public void HaMuerto()
+    {
+
+        /* rb2D.velocity = Vector2.zero;
+        rb2D.angularVelocity = 0f; */
+
+        miAnimacion.SetBool("seMueve", false);
+        miAnimacion.SetBool("seMata", true);
+        Destroy(gameObject, 1.5f);
+
+    }
+
+    public void SeguirJugador()
+    {
+        if (activarJefe)
+        {
+            miAnimacion.enabled = true;
+            miAnimacion.SetBool("seActiva", true);
+            activarJefe = false;
+        }
+        else
+        {
+            miAnimacion.SetBool("seMueve", true);
+            miAnimacion.SetBool("meAtaca", false);
+            miAnimacion.SetFloat("moverX", (GameObject.FindGameObjectWithTag("Player").transform.position.x - transform.position.x));
+            miAnimacion.SetFloat("moverY", (GameObject.FindGameObjectWithTag("Player").transform.position.y - transform.position.y));
+            // transform.position = Vector2.MoveTowards(transform.position, GameObject.FindWithTag("Player").transform.position, velocidad * Time.deltaTime);
+            agente.SetDestination(GameObject.FindWithTag("Player").transform.position);
+        }
+
     }
 
     public void Patrulla()
@@ -81,11 +165,60 @@ public class IA_Patrulla_NPC : MonoBehaviour
         }
     }
 
+    public void atacarJugador()
+    {
+
+        miAnimacion.SetBool("meAtaca", true);
+        miAnimacion.SetFloat("moverX", (GameObject.FindGameObjectWithTag("Player").transform.position.x - transform.position.x));
+        miAnimacion.SetFloat("moverY", (GameObject.FindGameObjectWithTag("Player").transform.position.y - transform.position.y));
+
+    }
+
+    public void DamageKnockback(Vector3 knockbackDir, float knockbackDistance, int damageAmount)
+    {
+        // transform.position += knockbackDir * knockbackDistance;
+        vida -= damageAmount;
+
+        miAnimacion.SetBool("seMueve", false);
+        miAnimacion.SetBool("meAtaca", false);
+        if (vida <= 0)
+        {
+            Muerto = true;
+
+        }
+        else
+        {
+            miAnimacion.Play("Daño");
+        }
+
+
+
+    }
+
     public Vector3 GetPosition()
     {
         return transform.position;
     }
 
+    private void OnTriggerStay2D(Collider2D col)
+    {
+        personaje player = col.GetComponent<personaje>();
+        if (player != null)
+        {
+            if (velocidadAtaque <= puedeAtacar)
+            {
+                Vector3 knockbackDir = (player.GetPosition() - transform.position).normalized;
+                player.DamageKnockback(knockbackDir, 0f, dañoEnemigo);
+                puedeAtacar = 0f;
+            }
+            else
+            {
+                puedeAtacar += Time.deltaTime;
+            }
+
+        }
+
+    }
 
     void OnTriggerEnter2D(Collider2D col)
     {

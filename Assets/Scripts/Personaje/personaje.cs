@@ -8,7 +8,9 @@ using Cinemachine;
 
 public class personaje : MonoBehaviourPun
 {
-    [SerializeField] private int damageAmountToEnemies;
+    [SerializeField] private int damageAmount;
+    private Collider2D colliderEspada;
+    
     private GameObject sonidos;
 
     //inventory part
@@ -48,14 +50,21 @@ public class personaje : MonoBehaviourPun
     private Animator transicionCasa;
     void Start()
     {
-        uiInventory = GameObject.FindGameObjectWithTag("UI_Inventory").GetComponent<UI_Inventory>();
+        if (!photonView.IsMine)
+        {
+            return;
+        }
+        else
+        {
+            uiInventory = GameObject.FindGameObjectWithTag("UI_Inventory").GetComponent<UI_Inventory>();
+            inventory = new Inventory(UseItem);
+            uiInventory.SetPlayer(this);
+            uiInventory.SetInventory(inventory);
+        }
 
+        colliderEspada = gameObject.transform.Find("Ataque").GetComponent<Collider2D>();
+        colliderEspada.enabled = false;
         transicionCasa = GameObject.FindGameObjectWithTag("TransicionCirculo").GetComponent<Animator>();
-        //inventory part
-        inventory = new Inventory(UseItem);
-        uiInventory.SetPlayer(this);
-        uiInventory.SetInventory(inventory);
-        //
         moveSpeed = 1f;
         interactuar = 0;
         secondsCounter = 0f;
@@ -84,6 +93,7 @@ public class personaje : MonoBehaviourPun
             sonidos = GameObject.Find("sonidos");
         }
     }
+
     //inventory method
     private void UseItem(Item item)
     {
@@ -139,6 +149,8 @@ public class personaje : MonoBehaviourPun
 
             if (Input.GetKeyDown(KeyCode.Space) && atacar == false)
             {
+                colliderEspada.enabled = true;
+
                 atacar = true;
                 Debug.Log("Ataca");
                 photonView.RPC("changeAtaqueON", RpcTarget.AllBuffered);
@@ -168,6 +180,8 @@ public class personaje : MonoBehaviourPun
                     ataqueCounter = 0f;
                     atacar = false;
                     Debug.Log("Deja de atacar");
+
+                    colliderEspada.enabled = false;
                 }
             }
 
@@ -287,22 +301,37 @@ public class personaje : MonoBehaviourPun
             sonidos.GetComponent<sonidos_fondo>().switch_audio_jefe(0);
         }
 
-        //inventory part
         ItemWorld itemWorld = col.GetComponent<ItemWorld>();
         if (itemWorld != null)
         {
-            // Touching Item
-            inventory.AddItem(itemWorld.GetItem());
-            itemWorld.DestroySelf();
+            if (!photonView.IsMine)
+            {
+                return;
+            }
+            else
+            {
+                // Touching Item
+                inventory.AddItem(itemWorld.GetItem());
+                itemWorld.DestroySelf();
+            }
         }
-        //Damaging enemies
-       /* IA_Patrulla2 enemigo = col.GetComponent<IA_Patrulla2>();
 
-        if (enemigo != null && col.gameObject.tag == "ataque_jugador")
+        IA_Patrulla2 enemigo = col.GetComponent<IA_Patrulla2>();
+
+        IA_Jefe jefe = col.GetComponent<IA_Jefe>();
+
+
+        if (enemigo != null && colliderEspada.enabled)
         {
             Vector3 knockbackDir = (enemigo.GetPosition() - transform.position).normalized;
-            enemigo.DamageKnockback(knockbackDir, 0.2f, damageAmountToEnemies);
-        }*/
+            enemigo.DamageKnockback(knockbackDir, 0.2f, damageAmount);
+        }
+        if (jefe != null && colliderEspada.enabled)
+        {
+            Vector3 knockbackDir = (jefe.GetPosition() - transform.position).normalized;
+            jefe.DamageKnockback(knockbackDir, 0.2f, damageAmount);
+        }
+        
     }
 
     void OnTriggerExit2D(Collider2D col)

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using CodeMonkey.Utils;
+using System;
+using Random = UnityEngine.Random;
 
 public class IA_Patrulla2 : MonoBehaviour
 {
@@ -12,6 +15,7 @@ public class IA_Patrulla2 : MonoBehaviour
     public float minDistancia;
     private float tiempoEspera;
     public float inicioTiempoEspera;
+    public event EventHandler OnItemListChanged;
     public Transform[] zonas;
 
     public int vida;
@@ -22,8 +26,7 @@ public class IA_Patrulla2 : MonoBehaviour
     private float puedeAtacar = 1f;
 
     private bool Muerto = false;
-
-    public GameObject[] listaItems;
+    private List<Item> itemList;
 
     // private Rigidbody2D rb2D;
 
@@ -81,16 +84,64 @@ public class IA_Patrulla2 : MonoBehaviour
     }
 
     public void dropItem(){
-        var totalItemsArray = 0;
 
-        foreach (GameObject item in listaItems)
-        {
-            totalItemsArray++;
-        }
-        var itemIndex = Random.Range(0, totalItemsArray);
-        Instantiate(listaItems[itemIndex], transform.position, Quaternion.identity);
+        itemList = new List<Item>();
+        AddItem(new Item { itemType = Item.ItemType.HealthPotion, amount = 1 });
+        AddItem(new Item { itemType = Item.ItemType.ManaPotion, amount = 1 });
 
+        var itemIndex = Random.Range(0, itemList.Count);
+
+
+        // Item duplicateItem = new Item { itemType = item.itemType, amount = 1 };
+
+        // ItemWorld.DropItem(transform.position, duplicateItem);
+
+        DropItem(transform.position, itemList[itemIndex]);
         
+        
+    }
+
+    public void AddItem(Item item)
+    {
+        if (item.IsStackable())
+        {
+            bool itemAlreadyInInventory = false;
+            foreach (Item inventoryItem in itemList)
+            {
+                if (inventoryItem.itemType == item.itemType)
+                {
+                    inventoryItem.amount += item.amount;
+                    itemAlreadyInInventory = true;
+                }
+            }
+            if (!itemAlreadyInInventory)
+            {
+                itemList.Add(item);
+            }
+        }
+        else
+        {
+            itemList.Add(item);
+        }
+        OnItemListChanged?.Invoke(this, EventArgs.Empty);
+    }
+    public static ItemWorld SpawnItemWorld(Vector3 position, Item item)
+    {
+        Transform transform = Instantiate(ItemAssets.Instance.pfItemWorld, position, Quaternion.identity);
+
+        ItemWorld itemWorld = transform.GetComponent<ItemWorld>();
+        itemWorld.SetItem(item);
+
+        return itemWorld;
+    }
+    public static ItemWorld DropItem(Vector3 dropPosition, Item item)
+    {
+        Vector3 randomDir = UtilsClass.GetRandomDir();
+        Debug.Log(randomDir);
+        ItemWorld itemWorld = SpawnItemWorld(dropPosition + randomDir * 0f, item);
+        //itemWorld.GetComponent<Rigidbody2D>().AddForce(randomDir * 0.75f, ForceMode2D.Impulse);-->no se molt be quin impuls donar-li.
+
+        return itemWorld;
     }
 
     public void HaMuerto(){

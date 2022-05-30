@@ -17,6 +17,8 @@ public class Spikes : MonoBehaviourPun
 
         
         IA_Patrulla2 enemigo = collider.GetComponent<IA_Patrulla2>();
+
+        IA_Jefe jefe = collider.GetComponent<IA_Jefe>();
         
         
         if(player != null)
@@ -28,6 +30,10 @@ public class Spikes : MonoBehaviourPun
         if(enemigo != null){
             Vector3 knockbackDir = (enemigo.GetPosition() - transform.position).normalized;
             enemigo.DamageKnockback(knockbackDir, 0.2f, damageAmount);
+        }
+        if(jefe != null){
+            Vector3 knockbackDir = (jefe.GetPosition() - transform.position).normalized;
+            jefe.DamageKnockback(knockbackDir, 0.2f, damageAmount);
         }
     }
 }

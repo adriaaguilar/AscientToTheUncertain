@@ -28,6 +28,7 @@ TagManager:
   - confinerInterior2
   - confinerInterior3
   - confinerInterior4
+  - AtaqueEnemigo
   layers:
   - Default
   - TransparentFX
